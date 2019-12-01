@@ -1,5 +1,7 @@
 package qa.pageobgect.Pages;
 
+import base.BaseTest;
+import org.junit.Test;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -17,6 +19,7 @@ public class LoginPage extends qacourses.lesson5.AbstractPage {
         basetest.waitElementVisibility(mail);
         basetest.waitElementVisibility(password);
         }
+
 
     public void setMail() {
         mail.sendKeys(enterEmail);
